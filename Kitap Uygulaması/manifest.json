@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "Okur — Okuma Takibi",
+  "short_name": "Okur",
+  "description": "Okuma alışkanlığı kazandıran kitap takip uygulaması: seri, hedefler, okuma takvimi, zamanlayıcı ve alıntı defteri.",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#040406",
+  "theme_color": "#040406",
+  "categories": ["books", "education", "lifestyle", "productivity"],
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Kitap Ekle", "short_name": "Ekle", "url": "/library", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "İstatistikler", "short_name": "İstatistik", "url": "/stats", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
