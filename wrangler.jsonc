@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kitap-takip-claude",
+  "compatibility_date": "2026-11-03",
+  "assets": {
+    "directory": ".",
+    // SPA: bilinmeyen yollar (/library, /book/…) index.html'e düşer
+    "not_found_handling": "single-page-application"
+  }
+}
